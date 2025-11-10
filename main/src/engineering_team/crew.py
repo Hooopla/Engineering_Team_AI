@@ -20,7 +20,7 @@ class EngineeringTeam():
     @agent
     def backend_engineer(self) -> Agent:
         return Agent(
-            config=self.agent_config['backend_engineer'],
+            config=self.agents_config['backend_engineer'],
             verbose=True,
             allow_code_execution=True,
             code_execution_mode="safe",
@@ -31,7 +31,7 @@ class EngineeringTeam():
     @agent 
     def frontend_engineer(self) -> Agent:
         return Agent(
-            config=self.agent_config['frontend_engineer'],
+            config=self.agents_config['frontend_engineer'],
             verbose=True,
         )
     
