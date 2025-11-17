@@ -1,7 +1,7 @@
 # Engineering_Team
 A group of agents that is able to create a basic frontend, backend and testing for a Python program :D
 
-Agents
+Agents & Responsibilities
 
 Lead Engineer: Takes the requirements of the application and outlines a draft of how the application will play out. This will then pass it on to the Backend Engineer!
 
